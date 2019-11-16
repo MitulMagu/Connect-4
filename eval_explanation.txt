@@ -1,0 +1,23 @@
+Name: Mitul Magu
+UTA ID: 1001644213
+Programming Language Used: C++
+
+The eval function is explained in this document.
+
+The function first checks the number of 4 in a rows for each player horizontally by incrementing fours1 for player 1 and fours2 for player 2..
+It then checks for 3 in a rows with blank in 1st place, 2nd place, 3rd place and 4th place respectively by incrementing threes1 for player 1 and threes2 for player 2.
+It will now check for 2 in a rows with -
+	1. 1st and 2nd column blank
+	2. 2nd and 3rd column blank
+	3. 3rd and 4th column blank
+	4. 1st and 4th column blank
+	5. 2nd and 4th column blank
+	6. 1st and 3rd column blank
+It will increment twos1 for player 1 and twos2 for player 2.
+
+The function will repeat the process for vertical and diagonal directions in the same manner.
+
+Finally, it will give weights (1 for four in a rows, 0.5 for three in a rows and 0.25 for 2 in a rows)
+If AI is player 1, weights for player one are positive and player two are negative and then both are added.
+If AI is player 2, weights for player two are positive and player one are negative and then both are added.
+The result is then returned.
