@@ -1,4 +1,4 @@
-// MaxConnect-4 code
+// Connect-4 code
 
 #include <stdio.h>
 #include <math.h>
@@ -2685,7 +2685,7 @@ int main(int argc, char ** argv)
 
   char * input = command_line[2];
   gameStatus currentGame;	 // Declare current game
-  printf("\nMaxConnect-4 Game\n");
+  printf("\nConnect-4 Game\n");
 
   currentGame.gameFile = fopen(input, "r");
   printf("Game state before move:\n");
