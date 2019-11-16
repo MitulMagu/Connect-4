@@ -24,7 +24,7 @@ If human is next, the program asks for an input, plays it and then displays the 
 This is repeated till the game ends.
 
 How to run the Code:
-1. Save the connect4.txt file as connect4.cpp file.
+1. Download the connect4.cpp file.
 2. Open Terminal on a Linux machine and install gcc-c++ if you don't already.
 3. This can be done by first typing the command: sudo apt-get install yum
 4. Press enter and once installed type: yum install gcc-c++
@@ -36,8 +36,7 @@ How to run the Code:
 10. This will execute the program once you press enter
 
 
-Note:
-The program has been intentionally been saved with a .txt extension. 
+Note: 
 The program works correctly on Linux and has been tested on Ubuntu 14.04.1 as well as on Omega. 
 Pressing 0 will intentionally exit the game for convinience.
 
