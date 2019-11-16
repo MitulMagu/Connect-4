@@ -1,5 +1,4 @@
 Name: Mitul Magu
-UTA ID: 1001644213
 Programming Language Used: C++
 
 Structure of Code:
@@ -25,20 +24,20 @@ If human is next, the program asks for an input, plays it and then displays the 
 This is repeated till the game ends.
 
 How to run the Code:
-1. Save the maxconnect4.txt file as maxconnect4.cpp file.
+1. Save the connect4.txt file as connect4.cpp file.
 2. Open Terminal on a Linux machine and install gcc-c++ if you don't already.
 3. This can be done by first typing the command: sudo apt-get install yum
 4. Press enter and once installed type: yum install gcc-c++
 5. If this fails, type: sudo apt-get install g++
 6. Once the compiler has been installed for cpp, change the directory to where the file belongs
-7. As an example, if the maxconnect4.cpp belongs in the Codes folder in your Desktop, type the command: cd Desktop/Codes 
-8. Once the directory shown in your command line, enter the command: g++ maxconnect4.cpp -o maxconnect
-9. Press enter and type: ./maxconnect interactive [input_file] [computer-next/human-next] [depth] or ./maxconnect one-move [input_file] [output_file] [depth]
+7. As an example, if the connect4.cpp belongs in the Codes folder in your Desktop, type the command: cd Desktop/Codes 
+8. Once the directory shown in your command line, enter the command: g++ connect4.cpp -o connect
+9. Press enter and type: ./connect interactive [input_file] [computer-next/human-next] [depth] or ./connect one-move [input_file] [output_file] [depth]
 10. This will execute the program once you press enter
 
 
 Note:
-The program has been intentionally been saved with a .txt extension for it to be zipped and uploaded on blackboard. 
+The program has been intentionally been saved with a .txt extension. 
 The program works correctly on Linux and has been tested on Ubuntu 14.04.1 as well as on Omega. 
 Pressing 0 will intentionally exit the game for convinience.
 
