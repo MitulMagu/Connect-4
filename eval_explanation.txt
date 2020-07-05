@@ -1,7 +1,3 @@
-Name: Mitul Magu
-UTA ID: 1001644213
-Programming Language Used: C++
-
 The eval function is explained in this document.
 
 The function first checks the number of 4 in a rows for each player horizontally by incrementing fours1 for player 1 and fours2 for player 2..
